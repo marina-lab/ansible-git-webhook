@@ -3,4 +3,6 @@
    template:
      src: post-receive
      dest: "{{ git_webhook_repos_path }}/{{ git_webhook_repo_name }}.git/hooks/post-receive"
+     owner: git
+     group: git
      mode: 0755
