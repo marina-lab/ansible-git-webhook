@@ -46,7 +46,7 @@ out="
 {
   \"after\": \"${newrev}\",
   \"before\": \"${oldrev}\",
-  \"deleted\": \"${deleted}\",
+  \"deleted\": ${deleted},
   \"commits\": [
     {
       \"added\": [
