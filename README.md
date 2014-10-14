@@ -4,7 +4,7 @@ Ansible role for deploying a git-webhook, the version of which is a fork
 from
 [mbmcormick/gitosis-webhook](https://github.com/mbmccormick/gitosis-webhook).
 This version comes from
-[marina/git-webhook](https://github.com/marina-lab/git-webhook).
+[marina-lab/git-webhook](https://github.com/marina-lab/git-webhook).
 
 ## License
 

@@ -1,0 +1,6 @@
+# Deploy docker-consul-haproxy
+ - name: install git-webhook
+   template:
+     src: post-receive
+     dest: "{{ git_webhook_repos_path }}/{{ git_webhook_repo_name }}.git/hooks/post-receive"
+     mode: 0755

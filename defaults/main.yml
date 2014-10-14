@@ -1,0 +1,12 @@
+---
+
+# Required:
+#git_webhook_post_url:
+#git_webhook_repo_name:
+
+# Path to git repos on server
+git_webhook_repos_path=/srv/git/repositories
+
+# Base path defaults to empty string in the typical case where there is
+# only one namespace for git repositories on a server.
+git_webhook_base_path=""
